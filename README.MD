@@ -1,4 +1,8 @@
-<H1> Student name <H1>
-o Student ID
-o Program
-o Lab section
+# Cyber Security Department
+
+## Student Information
+
++ **Student name** : Zainab Ilyas
++ **Student ID** : 26K-2009
++ **Program** : Cyber Security
++ **Lab section** : A
