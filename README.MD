@@ -1,4 +1,4 @@
-o Student name
+*Student name*
 o Student ID
 o Program
 o Lab section
