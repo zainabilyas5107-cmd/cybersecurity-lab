@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main(){
+	
+	char Stdname[50], StdID[50];
+	int nocompletedlabs, Tlabs, Tscore, Qmarks, Amarks, Pmarks ;
+	float labcompletepercent;
+	
+	printf("Enter student name: \n");
+	scanf("%s", &Stdname);
+	
+	printf("Enter student ID: \n");
+	scanf("%s", &StdID);
+	
+	printf("Enter number of completed labs: \n");
+	scanf("%d", &nocompletedlabs);
+	
+	printf("Enter Total labs: \n");
+	scanf("%d", &Tlabs);
+	
+	printf("Enter quiz marks: \n");
+	scanf("%d", &Qmarks);
+	
+	printf("Enter assignment marks: \n");
+	scanf("%d", &Amarks);
+	
+	printf("Enter project marks: \n");
+	scanf("%d", &Pmarks);
+	
+
+	
+	labcompletepercent = ((float)nocompletedlabs / Tlabs)*100;
+	
+	Tscore= (Qmarks + Amarks + Pmarks);
+	
+	printf("Total score is: %d \n", Tscore);
+	
+	printf("Lab completion percentage is: %.2f", labcompletepercent);
+	
+}
